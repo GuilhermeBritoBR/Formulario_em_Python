@@ -9,6 +9,7 @@ Email= input("Digite seu E-mail:")
 Cidade= input("Digite sua cidade:")
 saudacao= ("Caro")
 if Genero == "Feminino": saudacao= ("Cara")
+if Idade >= 120 :print("Por favor, digite sua verdadeira idade!!"), exit, 
 print(saudacao, name ," Seu cadastro foi realizado com sucesso!")
 print("Fique atento as novas atualizações deste serviço")
 print("Obrigado pela atenção!")
